@@ -1,0 +1,166 @@
+[21Sep2026 19:43:17.784] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 80ms
+[21Sep2026 19:43:17.803] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.36 (DEDICATED_SERVER in PROD)
+[21Sep2026 19:43:17.803] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /workspaces/server-1.21.11
+[21Sep2026 19:43:17.886] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 68) in 32ms
+[21Sep2026 19:43:17.889] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[21Sep2026 19:43:17.892] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.36/earlydisplay-10.0.36.jar
+[21Sep2026 19:43:17.894] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.36/loader-10.0.36.jar
+[21Sep2026 19:43:17.904] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[21Sep2026 19:43:17.931] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[21Sep2026 19:43:18.229] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[21Sep2026 19:43:18.232] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Auth Me 9.1.0+1.21.11 (authme)
+		Minecraft 1.21.11 (minecraft)
+		NeoForge 21.11.45 (neoforge)
+		Resourcefulconfig 3.11.2 (resourcefulconfig)
+[21Sep2026 19:43:18.495] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-1.21.11/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[21Sep2026 19:43:18.529] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[21Sep2026 19:43:18.531] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/authme-neoforge-9.1.0+1.21.11.jar > httpcore-4.4.16.jar
+[21Sep2026 19:43:18.532] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/authme-neoforge-9.1.0+1.21.11.jar > commons-logging-1.3.5.jar
+[21Sep2026 19:43:18.533] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/authme-neoforge-9.1.0+1.21.11.jar > httpclient-4.5.14.jar
+[21Sep2026 19:43:18.537] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.11.45/neoforge-21.11.45-universal.jar > net.neoforged.neoforge-coremods-21.11.45.jar
+[21Sep2026 19:43:18.747] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - authme (jar(mods/authme-neoforge-9.1.0+1.21.11.jar))
+ - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.11.45/minecraft-server-patched-21.11.45.jar))
+ - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.11.45/neoforge-21.11.45-universal.jar > mixinextras-neoforge-0.5.3.jar))
+ - neoforge (jar(~libraries/net/neoforged/neoforge/21.11.45/neoforge-21.11.45-universal.jar))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+ - resourcefulconfig (jar(mods/authme-neoforge-9.1.0+1.21.11.jar > resourcefulconfig-neoforge-1.21.11-3.11.2.jar))
+[21Sep2026 19:43:18.781] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 49ms
+[21Sep2026 19:43:19.820] [main/WARN] [oshi.software.os.linux.LinuxOperatingSystem/]: Did not find udev library in operating system. Some features may not work.
+[21Sep2026 19:43:19.997] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[21Sep2026 19:43:28.331] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.11.45, for MC 1.21.11
+[21Sep2026 19:43:29.159] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21Sep2026 19:43:32.857] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1470 recipes
+[21Sep2026 19:43:32.880] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1584 advancements
+[21Sep2026 19:43:32.884] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[21Sep2026 19:43:33.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.11
+[21Sep2026 19:43:33.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Sep2026 19:43:33.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Sep2026 19:43:33.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Sep2026 19:43:33.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Sep2026 19:43:33.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Sep2026 19:43:34.295] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[21Sep2026 19:43:34.298] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[21Sep2026 19:43:34.309] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 14 ms
+[21Sep2026 19:43:34.309] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.899s)! For help, type "help"
+[21Sep2026 19:43:34.375] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[21Sep2026 19:43:37.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[21Sep2026 19:43:37.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: authme<--[HERE]
+[21Sep2026 19:43:39.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[21Sep2026 19:43:39.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ls<--[HERE]
+[21Sep2026 19:43:40.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[21Sep2026 19:43:40.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: op<--[HERE]
+[21Sep2026 19:43:48.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[21Sep2026 19:43:48.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: op<--[HERE]
+[21Sep2026 19:43:49.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command. See below for error
+[21Sep2026 19:43:49.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: op<--[HERE]
+[21Sep2026 19:44:34.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[21Sep2026 19:44:49.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[21Sep2026 19:44:49.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list|create)
+[21Sep2026 19:44:49.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /dialog (show|clear)
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
+[21Sep2026 19:44:49.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name> [<arguments>|with]
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (respawn_radius|minecraft:respawn_radius|mob_explosion_drop_decay|minecraft:mob_explosion_drop_decay|advance_weather|minecraft:advance_weather|spawn_mobs|minecraft:spawn_mobs|fire_spread_radius_around_player|minecraft:fire_spread_radius_around_player|drowning_damage|minecraft:drowning_damage|max_command_forks|minecraft:max_command_forks|fall_damage|minecraft:fall_damage|water_source_conversion|minecraft:water_source_conversion|command_block_output|minecraft:command_block_output|tnt_explosion_drop_decay|minecraft:tnt_explosion_drop_decay|command_blocks_work|minecraft:command_blocks_work|spawner_blocks_work|minecraft:spawner_blocks_work|elytra_movement_check|minecraft:elytra_movement_check|players_sleeping_percentage|minecraft:players_sleeping_percentage|spectators_generate_chunks|minecraft:spectators_generate_chunks|tnt_explodes|minecraft:tnt_explodes|raids|minecraft:raids|max_snow_accumulation_height|minecraft:max_snow_accumulation_height|log_admin_commands|minecraft:log_admin_commands|advance_time|minecraft:advance_time|natural_health_regeneration|minecraft:natural_health_regeneration|mob_griefing|minecraft:mob_griefing|spread_vines|minecraft:spread_vines|spawn_wardens|minecraft:spawn_wardens|random_tick_speed|minecraft:random_tick_speed|spawn_wandering_traders|minecraft:spawn_wandering_traders|spawn_phantoms|minecraft:spawn_phantoms|lava_source_conversion|minecraft:lava_source_conversion|reduced_debug_info|minecraft:reduced_debug_info|show_death_messages|minecraft:show_death_messages|mob_drops|minecraft:mob_drops|block_drops|minecraft:block_drops|allow_entering_nether_using_portals|minecraft:allow_entering_nether_using_portals|freeze_damage|minecraft:freeze_damage|max_entity_cramming|minecraft:max_entity_cramming|universal_anger|minecraft:universal_anger|immediate_respawn|minecraft:immediate_respawn|block_explosion_drop_decay|minecraft:block_explosion_drop_decay|global_sound_events|minecraft:global_sound_events|spawn_monsters|minecraft:spawn_monsters|max_command_sequence_length|minecraft:max_command_sequence_length|pvp|minecraft:pvp|entity_drops|minecraft:entity_drops|keep_inventory|minecraft:keep_inventory|limited_crafting|minecraft:limited_crafting|projectiles_can_break_blocks|minecraft:projectiles_can_break_blocks|ender_pearls_vanish_on_death|minecraft:ender_pearls_vanish_on_death|forgive_dead_players|minecraft:forgive_dead_players|max_block_modifications|minecraft:max_block_modifications|locator_bar|minecraft:locator_bar|players_nether_portal_creative_delay|minecraft:players_nether_portal_creative_delay|fire_damage|minecraft:fire_damage|spawn_patrols|minecraft:spawn_patrols|player_movement_check|minecraft:player_movement_check|players_nether_portal_default_delay|minecraft:players_nether_portal_default_delay|show_advancement_messages|minecraft:show_advancement_messages|send_command_feedback|minecraft:send_command_feedback)
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[21Sep2026 19:44:49.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[21Sep2026 19:44:49.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[21Sep2026 19:44:49.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[21Sep2026 19:44:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[21Sep2026 19:44:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[21Sep2026 19:44:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[21Sep2026 19:44:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[21Sep2026 19:44:49.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[21Sep2026 19:44:49.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[21Sep2026 19:44:49.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[21Sep2026 19:44:49.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
+[21Sep2026 19:44:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /random (value|roll|reset)
+[21Sep2026 19:44:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[21Sep2026 19:44:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[21Sep2026 19:44:49.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fetchprofile (name|id)
+[21Sep2026 19:44:49.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return (<value>|fail|run)
+[21Sep2026 19:44:49.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[21Sep2026 19:44:49.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /rotate <target> (<rotation>|facing)
+[21Sep2026 19:44:49.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[21Sep2026 19:44:49.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[21Sep2026 19:44:49.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[21Sep2026 19:44:49.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[21Sep2026 19:44:49.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /version
+[21Sep2026 19:44:49.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace|strict]
+[21Sep2026 19:44:49.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[21Sep2026 19:44:49.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[21Sep2026 19:44:49.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[21Sep2026 19:44:49.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[21Sep2026 19:44:49.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
+[21Sep2026 19:44:49.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopwatch (create|query|restart|remove)
+[21Sep2026 19:44:49.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[21Sep2026 19:44:49.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[21Sep2026 19:44:49.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[21Sep2026 19:44:49.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[21Sep2026 19:44:49.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[21Sep2026 19:44:49.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[21Sep2026 19:44:49.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[21Sep2026 19:44:49.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[21Sep2026 19:44:49.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
+[21Sep2026 19:44:49.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[21Sep2026 19:44:49.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[21Sep2026 19:44:49.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[21Sep2026 19:44:49.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[21Sep2026 19:44:49.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waypoint (list|modify)
+[21Sep2026 19:44:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[21Sep2026 19:44:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[21Sep2026 19:44:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[21Sep2026 19:44:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[21Sep2026 19:44:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[21Sep2026 19:44:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[21Sep2026 19:44:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[21Sep2026 19:44:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[21Sep2026 19:44:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[21Sep2026 19:44:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[21Sep2026 19:44:49.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[21Sep2026 19:44:49.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[21Sep2026 19:44:49.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[21Sep2026 19:44:49.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /transfer <hostname> [<port>]
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /neoforge (tps|track|entity|generate|dimensions|mods|tags|dump|day|data_components)
+[21Sep2026 19:44:49.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[21Sep2026 19:44:52.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown command or insufficient permissions
+[21Sep2026 19:46:39.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21Sep2026 19:46:39.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Sep2026 19:46:39.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Sep2026 19:46:39.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Sep2026 19:46:39.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Sep2026 19:46:39.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Sep2026 19:46:39.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Sep2026 19:46:39.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Sep2026 19:46:39.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2026 19:46:39.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2026 19:46:39.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Sep2026 19:46:39.841] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 2738abb7
+[21Sep2026 19:46:39.844] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
